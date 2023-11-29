@@ -12,6 +12,20 @@ public class handleFile {
 			else {
 				System.out.println("File already exist");
 			}
+		try {
+			File file2 = new File("index.txt");
+			if(file2.createNewFile()) {
+				System.out.println("New file is created");
+			}
+			else {
+				System.out.println("File existent");
+			}
+		}
+		catch(FileNotFoundException e) {
+			System.out.println("File error");
+			e.printStackTrace();
+		}
+		
 			
 	}
 
