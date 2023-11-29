@@ -12,6 +12,7 @@ public class writeFile{
 		writer.append("I need a new mentor and new direction when learning\n");
 		writer.append("I don't seem to head in the positive direction\n");
 		writer.append("This is an emergency");
+		writer.append("When do i start coding seriously?");
 		System.out.println("Successfully wrote to the file");
 		writer.close();
 		}
