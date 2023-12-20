@@ -17,5 +17,9 @@ public class readFile{
 			System.out.println("An error occured");
 			e.printStackTrace();
 		}
+		try {
+			File name = new File("
+		}
+		
 	}
 }
